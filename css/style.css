@@ -5,44 +5,49 @@ html {
 body {
     background: rgb(150,209,249);
     background: linear-gradient(12deg,
-        rgba(150,209,249,1) 0%,
-        rgba(169,228,255,1) 35%,
-        rgba(239,255,255,1) 100%);
-    font-size: 100px;
+                rgba(150,209,249,1) 0%,
+                rgba(169,228,255,1) 35%,
+                rgba(239,255,255,1) 100%);
+    font-size:  100px;
 }
 
 info {
-    position: fixed;
-    font-size: 0.5em;
-    z-index: 1;
-    bottom: 0;
-    right: 0;
-    padding: 10px;
+    position:   fixed;
+    font-size:  0.5em;
+    z-index:    1;
+    bottom:     0;
+    right:      0;
+    padding:    10px;
     text-align: right;
-    cursor: pointer;
-    display: inline-block;
+    cursor:     pointer;
+    display:    inline-block;
 }
 
+a:link      { text-decoration: none; }
+a:visited   { text-decoration: none; }
+a:hover     { text-decoration: none; }
+a:active    { text-decoration: none; }
+
 .flowers{
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    flex: 3 0 1%;
-    margin: 5px;
-    height:100%;
+    display:    flex;
+    justify-content: space-around;
+    flex-wrap:  wrap;
+    flex:       3 0 1%;
+    margin:     5px;
+    height:     100%;
 }
 
 #odd {
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .f1:hover {
-    transform: translateY(-10px);
+    transform:  translateY(-10px);
     transition-duration: 0.2s;
 }
 
 .f2:hover {
-    transform: rotate(360deg);
+    transform:  rotate(360deg);
     transition-duration: 0.6s;
 }
 
@@ -52,7 +57,7 @@ info {
 }
 
 .f4:hover {
-    transform: translateY(-10px);
+    transform:  translateY(-10px);
     transition-duration: 1s;
 }
 
