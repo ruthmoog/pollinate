@@ -15,5 +15,7 @@ Desktop site is deployed with GitHub Pages.
 
 ## Preview
 
+![Pollinate Project](https://github.com/ruthmoog/portfolio/blob/master/public/images/projects/pollinate.webp)
+
 https://user-images.githubusercontent.com/33294286/122638057-cf5f0380-d0e9-11eb-8122-3c53d091f73a.mp4
 
